@@ -40,10 +40,10 @@ commands:
       - type: exec
         component: gradle
         command: gradle build
-        workdir: '${CHE_PROJECTS_ROOT}/Gradle682'
+        workdir: '${CHE_PROJECTS_ROOT}/gradle-simple'
   - name: gradle run
     actions:
       - type: exec
         component: gradle
         command: gradle run
-        workdir: '${CHE_PROJECTS_ROOT}/Gradle682'
+        workdir: '${CHE_PROJECTS_ROOT}/gradle-simple'
