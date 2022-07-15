@@ -41,9 +41,9 @@ commands:
         component: gradle
         command: gradle build
         workdir: '${CHE_PROJECTS_ROOT}/gradle-simple'
-  - name: gradle run
+  - name: gradle tasks all
     actions:
       - type: exec
         component: gradle
-        command: gradle run
+        command: gradle tasks --all
         workdir: '${CHE_PROJECTS_ROOT}/gradle-simple'
